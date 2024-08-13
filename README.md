@@ -14,18 +14,18 @@ These rules are applied on the code as it is being built from the original strin
 # Examples
 Here are some examples of bit streams codes with AMI and HDB3. All assume the same starting conditions: the previous 1 bit was −, and the previous violation was an even number of 1 bits ago. (E.g. the preceding bits could have been ++−.)
 
-Input :	100001102
-HDB3 :	+B00V−+0
-Output : +−00−+−0
++ Input :	100001102
++ HDB3 :	+B00V−+0
++ Output : +−00−+−0
 
-Input :	1010000011000011000000012
-HDB3 :	+0−000V0+−B00V−+B00V000+
-Output : +0−000−0+−+00+−+−00−000+
++ Input :	1010000011000011000000012
++ HDB3 :	+0−000V0+−B00V−+B00V000+
++ Output : +0−000−0+−+00+−+−00−000+
 
-Input :	10100001000011000011100001111000010100002
-HDB3 :	+0-000V+000V-+B00V-+-000V+-+-B00V+0-B00V
-Output : +0-000-+000+-+-00-+-+000+-+-+-00-+0-+00+
++ Input :	10100001000011000011100001111000010100002
++ HDB3 :	+0-000V+000V-+B00V-+-000V+-+-B00V+0-B00V
++ Output : +0-000-+000+-+-00-+-+000+-+-+-00-+0-+00+
 
-Input :	100000000002
-HDB3 :	+B00VB00V00
-Output : +-00-+00+00
++ Input :	100000000002
++ HDB3 :	+B00VB00V00
++ Output : +-00-+00+00
