@@ -1,6 +1,7 @@
 #include <iostream>
 #include <cmath>
 #include <time.h>
+//time.h is only used for compilation info purposes...
 
 using namespace std;
 
