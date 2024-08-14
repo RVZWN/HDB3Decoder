@@ -19,5 +19,5 @@ Here are some examples of bit streams codes with AMI and HDB3. All assume the sa
 + Output : 1 0 0 0 0 1 1 0 1
 #
 + Input :	0 -1 0 0 0 -1 0 +1 −1 +1 0 0 +1 −1 +1 −1 0 0 −1 0 0 0 +1 0
-+ HDB3 :	0 - 0 0 0 v 0 + - B 0 0 V - + B 0 0 V 0 0 0 + 0
++ HDB3 :	0 - 0 0 0 V 0 + - B 0 0 V - + B 0 0 V 0 0 0 + 0
 + Output : 0 1 0 0 0 0 0 1 1 0 0 0 0 1 1 0 0 0 0 0 0 0 1 0
